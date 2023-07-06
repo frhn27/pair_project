@@ -11,11 +11,12 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      this.hasMany(models.OrderDetail)
+      this.belongsTo(models.User)
     }
   }
   Order.init({
-    totalAmount: DataTypes.INTEGER,
-    status: DataTypes.STRING
+    UserId: DataTypes.INTEGER,
   }, {
     sequelize,
     modelName: 'Order',

@@ -9,12 +9,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      totalAmount: {
-        type: Sequelize.INTEGER
-      },
-      status: {
-        type: Sequelize.STRING
-      },
       UserId: {
         type: Sequelize.INTEGER,
         references :{
