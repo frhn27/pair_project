@@ -78,7 +78,7 @@ class AdminController{
             })
         })
         .then(()=> {
-            console.log("masuk sini >>>>>");
+            // console.log("masuk sini >>>>>");
             res.redirect(`/item?name=${data.name}`)
         })
         .catch((err) => {
