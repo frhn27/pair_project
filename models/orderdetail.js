@@ -11,11 +11,15 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      OrderDetail.belongsTo(models.Order)
+      OrderDetail.belongsTo(models.Gadget)
     }
   }
   OrderDetail.init({
     quantity: DataTypes.INTEGER,
-    price: DataTypes.INTEGER
+    price: DataTypes.INTEGER,
+    OrderId : DataTypes.INTEGER,
+    GadgetId : DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'OrderDetail',
