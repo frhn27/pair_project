@@ -1,0 +1,27 @@
+[
+    {
+      "name": "iPhone 12",
+      "description": "iPhone 12 adalah ponsel pintar buatan Apple dengan layar Super Retina XDR, chip A14 Bionic, dan sistem kamera ganda.",
+      "price": 10000,
+      "imageUrl": "https://d28i4xct2kl5lp.cloudfront.net/product_images/None_6bbe58a2-f5ff-4f5b-b21f-d3f18c405463.jpg"
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "description": "Samsung Galaxy S21 adalah ponsel Android terbaru dari Samsung dengan layar Dynamic AMOLED, chip Exynos 2100, dan kamera utama 108MP.",
+      "price": 50000,
+      "imageUrl": "https://phonesdata.com/files/models/Samsung-Galaxy-S21-Ultra-5G-278.jpg"
+    },
+    {
+      "name": "Sony PlayStation 5",
+      "description": "Sony PlayStation 5 adalah konsol permainan generasi terbaru dari Sony dengan dukungan grafis 4K, SSD ultra-cepat, dan kontroler DualSense.",
+      "price": 30000,
+      "imageUrl": "https://i.ebayimg.com/00/s/NzY4WDEwMjQ=/z/pi8AAOSwdytfz~N2/$_86.JPG"
+    }
+  ]
+
+
+
+
+
+
+

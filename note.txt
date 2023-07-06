@@ -1,0 +1,7 @@
+table customer done 
+table Restaurant done
+table Food done
+table OrderDetails ( tinggal buat column Fk untuk (orderId) dan Fk untuk (foodId))
+table Orders ( tinggal buat column Fk untuk (customerId) dan Fk untuk (restaurantId))
+
+npx sequelize model:generate --name CustomerProfile --attributes firstname:string,lastname:string,phoneNumber:string,address:string

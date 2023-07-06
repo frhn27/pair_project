@@ -1,0 +1,20 @@
+[
+    {
+        "name": "John",
+        "email": "John@gmail.com",
+        "password": "12345",
+        "role": "pembeli"
+    },
+    {
+        "name": "Rismen",
+        "email": "rismen@gmail.com",
+        "password": "aqua",
+        "role": "pembeli"
+    },
+    {
+        "name": "Elif",
+        "email": "elif@gmail.com",
+        "password": "elif",
+        "role": "penjual"
+    }
+]
