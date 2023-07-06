@@ -1,5 +1,8 @@
-const { User } = require("../models")
+const { formatRp } = require("../helper/helper")
+const { User,Gadget } = require("../models")
 const bcrypt = require("bcryptjs")
+
+
 
 class UserController{
     static getUser(req, res){
@@ -47,8 +50,26 @@ class UserController{
 
     }
 
+    static showFormAddUser(req,res){
+        Gadget.findAll()
+        .then((data) => {
+            // res.send(data)
+            res.render('gadget',{data,formatRp})
+        })
+        .catch((err)=> {
+            // console.log(err);
+            res.send(err)
+        })
+    }
 
+    
 
 }
+
+
+
+
+
+
 
 module.exports = UserController
