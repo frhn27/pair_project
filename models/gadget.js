@@ -11,12 +11,14 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here 
+      Gadget.hasMany(models.OrderDetail)
     }
   }
   Gadget.init({
     name: DataTypes.STRING,
     description: DataTypes.TEXT,
     price: DataTypes.INTEGER,
+    imageUrl : DataTypes.STRING,
   }, {
     sequelize,
     modelName: 'Gadget',
